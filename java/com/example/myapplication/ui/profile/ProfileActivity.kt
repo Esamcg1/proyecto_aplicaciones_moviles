@@ -25,7 +25,6 @@ class ProfileActivity : AppCompatActivity() {
             binding.user = user
         })
 
-        // Añadir el listener al avatar
         binding.imgAvatar.setOnClickListener {
             showImageSourceDialog()
         }
@@ -40,11 +39,9 @@ class ProfileActivity : AppCompatActivity() {
                 when (which) {
                     0 -> {
                         // Lógica para tomar foto
-                        // TODO: Implementar la captura desde la cámara
                     }
                     1 -> {
                         // Lógica para elegir de galería
-                        // TODO: Implementar la selección desde la galería
                     }
                 }
             }
